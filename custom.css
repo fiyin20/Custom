@@ -99,7 +99,7 @@ html {
   
   .progress__filled {
     width: 50%;
-    background: #ffc600;
+    background: red;
     flex: 0;
     flex-basis: 50%;
   }
@@ -131,7 +131,7 @@ html {
     height: 15px;
     width: 15px;
     border-radius: 50px;
-    background: #ffc600;
+    background: red;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -3.5px;
@@ -139,7 +139,7 @@ html {
   }
   
   input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #bada55;
+    background: #fff606;
   }
   
   input[type=range]::-moz-range-track {
@@ -157,6 +157,6 @@ html {
     height: 15px;
     width: 15px;
     border-radius: 50px;
-    background: #ffc600;
+    background: red;
     cursor: pointer;
   }
